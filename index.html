@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>Meme Generator</h1>
+        <form action="" id="memeForm">
+            <input type="text" placeholder="html:// " id="website">
+                <div id="inline" class="tooltip">&#9432
+                    <span class="tooltiptext">Enter a web adress of a great image</span>
+                </div>
+            <input type="text" placeholder="Top Text" id="tpText">
+                <div id="inline" class="tooltip">&#9432
+                    <span class="tooltiptext">Put in the text you want at the top or your meme</span>
+                </div>
+            <input type="text" placeholder="Bottom Text" id="btText">
+                <div id="inline" class="tooltip">&#9432
+                    <span class="tooltiptext">Put in the text you want at the bottom of your meme</span>
+                </div>
+            <button>Create Meme!</button>
+        </form>
+        <li id='memelist'></li>
+        <div id="tempSpace"></div>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
