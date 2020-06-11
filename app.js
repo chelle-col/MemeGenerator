@@ -32,11 +32,12 @@ function createMeme(img, tpText, btText){
     rmvBtn.classList.add('buttonStyle');
 
     div.appendChild(tt);
-    list.appendChild(div); //add to the page
 
     let bottomText = createMemeBtText(btText);
     div.appendChild(bottomText);
     div.appendChild(rmvBtn);
+
+    list.appendChild(div);
 }
 
 function createMemeTpText(text){
